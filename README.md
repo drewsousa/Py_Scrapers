@@ -1,2 +1,2 @@
 # Py_Scrapers
-Python scripts to scrape information from internet sites. 
+Some very simple python3 scripts to scrape information from the internet or perform some basic functions.
