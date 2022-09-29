@@ -1,4 +1,4 @@
-![PowerShell](https://wracked.com/img/github/PythonScrapers.png)
+![PowerShell](https://wracked.com/img/github/PyScrapers.png)
 
 ## Some very simple Python3 scripts to scrape information from the internet
 
