@@ -1,3 +1,6 @@
+# Description: Simple Python3 script for pulling weather from most cities around the globe
+# NOTE: Not for production. See note on SSRF below. 
+# 
 # Openweathermap.org
 # https://openweathermap.org/price
 # 1,0000 API calls per day for free
@@ -14,6 +17,8 @@ city = input("Enter a city name: ")
 # Using an F String
 # print(f"{BASE_URL}?appid={API_KEY_OPENWEATHERMAPORG}&q={city}")
 
+# Vulnerable to SSRF (Server Side Request Fogery) vulnerability
+# The "get_url" & "request.get" are currently an unsanitized input and not for anything production. 
 get_url = f"{BASE_URL}?appid={API_KEY}&q={city}"
 response = requests.get(get_url)
 if response.status_code == 200:
