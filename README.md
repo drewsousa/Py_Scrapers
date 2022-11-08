@@ -1,6 +1,5 @@
 ![PowerShell](https://wracked.com/img/github/PyScrapers.png)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 ## Some very simple Python3 scripts to scrape information from the internet
 
 ---
